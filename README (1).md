@@ -50,4 +50,4 @@ Digite o movimento: e2 e4
 
 ## 🤝 Como contribuir
 
-Sugestões e melhorias são bem-vindas via pull request ou issues.
+Sugestões e melhorias são bem-vindas.
