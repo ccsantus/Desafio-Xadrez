@@ -1,7 +1,6 @@
-
 # ♟️ Desafio Xadrez (em Python)
 
-Este repositório contém o desenvolvimento de um jogo de **Xadrez em terminal**, feito como desafio da disciplina de Programação.
+Este repositório contém o desenvolvimento de um jogo de **Xadrez em terminal**, criado como desafio da disciplina de Programação.
 
 ## 💻 Tecnologias utilizadas
 
@@ -9,14 +8,21 @@ Este repositório contém o desenvolvimento de um jogo de **Xadrez em terminal**
 
 ## 🕹️ Funcionalidades
 
-- Tabuleiro 8x8 com as peças posicionadas corretamente
-- Interface em terminal
+- Tabuleiro 8x8 com peças posicionadas corretamente
+- Interface 100% em terminal
 - Alternância de turnos entre Jogador 1 (brancas) e Jogador 2 (pretas)
-- Movimento básico de peões implementado
+- Movimento completo de todas as peças:
+  - Peão (avanço simples, duplo e captura)
+  - Torre
+  - Cavalo
+  - Bispo
+  - Rainha
+  - Rei
+- Verificação de movimentos válidos e impedimento de capturas do próprio time
 
-## 🚧 Status do projeto
+## 🚀 Status do projeto
 
-🔧 Em desenvolvimento – atualmente com movimentação simples dos peões.
+✅ Finalizado — versão básica funcional com todas as peças
 
 ## 🙌 Como executar
 
@@ -26,28 +32,3 @@ Este repositório contém o desenvolvimento de um jogo de **Xadrez em terminal**
 
 ```bash
 python xadrez.py
-```
-
-4. Faça jogadas no formato:
-
-```
-e2 e4
-```
-
-5. Digite `sair` para encerrar o jogo.
-
-## ✅ Exemplo de jogada
-
-```
-Jogador 1 (brancas)
-Digite o movimento: e2 e4
-```
-
-## 📌 Observações
-
-- Por enquanto, apenas peões podem ser movimentados (sem capturas).
-- Movimentos de outras peças ainda serão implementados.
-
-## 🤝 Como contribuir
-
-Sugestões e melhorias são bem-vindas via pull request ou issues.
